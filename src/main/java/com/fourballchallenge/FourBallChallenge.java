@@ -1,3 +1,5 @@
+package com.fourballchallenge;
+
 import processing.core.PApplet;
 
 public class FourBallChallenge extends PApplet {
@@ -6,7 +8,7 @@ public class FourBallChallenge extends PApplet {
     public static final int HEIGHT_OF_FRAME = 480;
 
     public static void main(String[] args) {
-        PApplet.main("FourBallChallenge",args);
+        PApplet.main("com.fourballchallenge.FourBallChallenge",args);
     }
 
     @Override
